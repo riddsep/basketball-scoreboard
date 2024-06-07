@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="home-board">
+        <h3>HOME</h3>
+        <h2 id="home-score">0</h2>
+        <div>
+          <button id="home-btn1" onclick="incrementOneHome()">+1</button>
+          <button onclick="incrementTwoHome()">+2</button>
+          <button onclick="incrementThreeHome()">+3</button>
+        </div>
+      </div>
+      <button>New Game</button>
+      <div class="guest-board">
+        <h3>GUEST</h3>
+        <h2 id="guest-score">0</h2>
+        <div>
+          <button id="guest-btn1" onclick="incrementOneGuest()">+1</button>
+          <button onclick="incrementTwoGuest()">+2</button>
+          <button onclick="incrementThreeGuest()">+3</button>
+        </div>
+      </div>
+    </div>
+    </div>
+ 
+    <script src="script.js"></script>
+  </body>
+</html>
